@@ -1,0 +1,8 @@
+### Ignore the original version
+original.py
+
+### Ignore out files
+*.txt
+
+### Ignore pyc
+*.pyc
