@@ -1,0 +1,365 @@
+body{
+    background-color: #CBEAF7;
+    margin: 0% 1%;
+}
+
+#welcometext{
+    font-family: 'Open Sans' Cursive;
+    font-size: 2em;
+    text-align: center;
+
+}
+
+.abouttext{
+    font-family: 'Open Sans' Cursive;
+    font-size: 1.5em;
+}
+
+.reviewtext{
+    font-family: 'Open Sans' Cursive;
+    font-size: 1.2em;
+}
+
+#greeting{
+    text-align: center;
+}
+
+h1{
+    margin: 0 auto;
+}
+
+h2{
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    font-size: 3em;
+}
+
+a{
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    -webkit-transition: .2s ease;
+    -moz-transition: .2s ease;
+    -ms-transition: .2s ease;
+    -o-transition: .2s ease;
+    transition: .2s ease;
+}
+
+a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+#title{
+    text-align: center;
+}
+
+#footer{
+    font-family: 'Lobster' Cursive;
+    font-size: 1.5em;
+    margin-top: 6%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#title_mb{
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    font-size: 5em;
+    display: block;
+    -webkit-animation: fadein 2.5s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 2.5s; /* Firefox < 16 */
+        -ms-animation: fadein 2.5s; /* Internet Explorer */
+         -o-animation: fadein 2.5s; /* Opera < 12.1 */
+            animation: fadein 2.5s;
+}
+
+#greeting{
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    -webkit-animation: fadein 2.5s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 2.5s; /* Firefox < 16 */
+        -ms-animation: fadein 2.5s; /* Internet Explorer */
+         -o-animation: fadein 2.5s; /* Opera < 12.1 */
+            animation: fadein 2.5s;
+}
+
+img{
+    display: block;
+    margin: 0 auto;
+}
+
+#cat{
+    -webkit-animation: fadein 2.5s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 2.5s; /* Firefox < 16 */
+        -ms-animation: fadein 2.5s; /* Internet Explorer */
+         -o-animation: fadein 2.5s; /* Opera < 12.1 */
+            animation: fadein 2.5s;
+}
+
+#greeting{
+    margin: 1%;
+}
+
+.nav-pills>li{ /* NAV-PILLS STANDALONE */
+    font-family: 'Lobster', cursive;
+    font-size: 2em;
+    text-align: center;
+}
+.nav-pills>li.current>a, .nav-pills>li.current>a:hover, .nav-pills>li.current>a:focus{ /* NAV-PILLS ACTIVE */
+    background-color: #FFFFFF;
+    color: #919191;
+}
+
+.nav-pills>li>a:hover{ /* NAV-PILLS HOVER */
+    background-color: #A5D8FA;
+}
+
+.nav-tabs>li>a { /* STANDARD TAB */
+    font-family: 'Lobster', cursive;
+    background-color: #FFFFFF;
+    font-size: 2em;
+    margin: 0% 1%;
+    -webkit-transition: .2s ease;
+    -moz-transition: .2s ease;
+    -ms-transition: .2s ease;
+    -o-transition: .2s ease;
+    transition: .2s ease;
+}
+
+.nav-tabs>li.current>a, .nav-tabs>li.current>a:hover, .nav-tabs>li.current>a:focus { /* ACTIVE-TAB COLOR */
+    background-color: #F6C7FF;
+}
+
+.nav-tabs>li>a:hover { /* TAB-HOVER */
+    background-color: #A5D8FA;
+}
+
+/* Form styling begin */
+.form_off{
+    display: none;
+}
+
+.form_on{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+hr{
+    width: 25%;
+}
+.formField
+{
+    margin-top: .5%;
+    font-family: 'Open Sans', serif;
+    font-size: 1em;
+    text-align: center;
+}
+
+.inputField{
+    font-family: 'Open Sans', serif;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1em;
+    height: 40px;
+    width: 400px;
+}
+
+.inputField:focus{
+    outline: #F6C7FF solid;
+}
+
+.text_area{
+    text-align: left;
+    height: 200px;
+}
+
+.submitbutton{
+    background-color: #CBEAF7;
+    font-family: 'Open Sans', serif;
+    border: 1px solid white;
+    padding: 1% 2%;
+    font-size: 1em;
+    color: white;
+    margin-bottom: 1%;
+    -webkit-transition: .2s ease;
+    -moz-transition: .2s ease;
+    -ms-transition: .2s ease;
+    -o-transition: .2s ease;
+    transition: .2s ease;
+}
+
+.submitbutton:hover{
+    background-color: white;
+    color: black;
+}
+
+.continue_button{
+    background-color: #CBEAF7;
+    border: 1px solid white;
+    padding: .5% 1%;
+    font-size: 1em;
+    color: white;
+    margin: 1% 0%;
+    -webkit-transition: .2s ease;
+    -moz-transition: .2s ease;
+    -ms-transition: .2s ease;
+    -o-transition: .2s ease;
+    transition: .2s ease;
+}
+
+.continue_button:hover{
+    background-color: white;
+    color: black;
+}
+
+form{
+    font-size: 1.8em;
+    font-family: 'Open Sans', serif;
+}
+
+input[type=checkbox]{
+    margin-right: .5%;
+    margin-top: .5%;
+}
+
+}
+label{
+    font-weight: normal;
+    font-size: 2em;
+    font-family: 'Open Sans', serif;
+}
+
+/* Review Page */
+.review_title{
+    text-align: center;
+    font-style: normal;
+    font-family: 'Lobster', cursive;
+    font-size: 1.5em;
+}
+
+.review{
+    font-family: 'Helvetica', serif;
+    font-style: italic;
+    font-size: 1em;
+}
+
+/* Sarah's Carousel */
+
+
+.viewer ul{ 
+    display: inline-block;
+    list-style-type: none;
+    margin: 4% 0%;
+}
+
+*:focus{
+    outline:0px;
+}
+
+button {
+    padding: 0%;
+    background-repeat:no-repeat;
+    outline:none;
+}
+
+#pizza {
+    display: none;
+}
+
+ #mexican {
+    display: none;
+}
+
+#sandwiches  {
+    display: none;
+
+}
+
+#asian  {
+    display: none;
+}
+
+.cusines{ 
+    margin: 0 auto;
+}
+
+.craving{ 
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+}
+
+.cravingbutton{ 
+margin: 5%;
+}
+
+#myCarousel{
+    display: relative;
+    margin: 0 auto;
+    width: 400px;
+    height: 250px;
+
+}
+
+.carousel-control {
+    background-image: moz-linear-gradient:( 0deg, #5EB7F6, #21DAF6),
+    webkit-linear-gradient: ( 0deg, #5EB7F6, #21DAF6),
+    linear-gradient, ( 0deg, #5EB7F6, #21DAF6);
+}
+.item{
+    width: 400px;
+    height: 250px;
+    moz-transition:.6s ease-in-out;
+    webkit-transition:.6s ease-in-out;
+    transition:.6s ease-in-out;
+}
+
+.carousel-caption h3{ 
+    color:#4AB6EF;
+    text-align: center
+}
+
+.menubutton{
+    background-color: #FECBCF;
+}
+
+h3{
+    font-family: 'Lobster', cursive;
+    font-size: 2em;
+    text-align: center;
+}
+
+/* -- Transition code -- */
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+/* -- End Transition Code -- */
